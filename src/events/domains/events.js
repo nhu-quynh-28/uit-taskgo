@@ -1,0 +1,18 @@
+export const DomainEvents = Object.freeze({
+  ORDER_CREATED: "order.created",
+  ORDER_PENDING: "order.pending",
+  ORDER_ACCEPTED: "order.accepted",
+  ORDER_ARRIVED: "order.arrived",
+  ORDER_IN_PROGRESS: "order.in_progress",
+  ORDER_COMPLETED: "order.completed",
+  ORDER_CANCELLED: "order.cancelled",
+  ORDER_STATUS_CHANGED: "order.status_changed",
+  PAYMENT_INITIATED: "payment.initiated",
+  PAYMENT_SUCCEEDED: "payment.succeeded",
+  PAYMENT_FAILED: "payment.failed",
+  TASKER_ASSIGNED: "tasker.assigned",
+  TASKER_ONLINE_CHANGED: "tasker.online_changed",
+  CHAT_MESSAGE_SENT: "chat.message_sent",
+  CHAT_THREAD_UPDATED: "chat.thread_updated",
+  REVIEW_CREATED: "review.created",
+});
