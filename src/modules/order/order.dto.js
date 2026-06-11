@@ -1,0 +1,27 @@
+export function toOrderDTO(order) {
+  return {
+    id: order.id,
+    customerId: order.customerId,
+    taskerId: order.taskerId,
+    serviceName: order.serviceName,
+    address: order.address,
+    scheduledAt: order.scheduledAt,
+    scheduledStartAt: order.scheduledStartAt ?? order.scheduledAt,
+    scheduledEndAt: order.scheduledEndAt,
+    bookingType: order.bookingType ?? "scheduled",
+    serviceId: order.serviceId ?? null,
+    estimatedDurationMinutes: order.estimatedDurationMinutes ?? null,
+    notes: order.notes,
+    subtotal: order.subtotal,
+    pricing: order.pricing ?? null,
+    status: order.status,
+    paymentStatus: order.paymentStatus,
+    location: order.location,
+    acceptedAt: order.acceptedAt,
+    completedAt: order.completedAt,
+    lastPaymentTraceId: order.lastPaymentTraceId,
+    payosOrderCode: order.payosOrderCode ?? null,
+    createdAt: order.createdAt,
+    updatedAt: order.updatedAt,
+  };
+}
