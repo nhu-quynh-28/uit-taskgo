@@ -1,0 +1,9 @@
+node_modules/
+
+# Generated run history (created on first test run)
+results/test-runs.log
+results/test-runs.jsonl
+results/asr-metrics.jsonl
+
+# ASR utility-tree report (regenerated each test run)
+reports/asr_report.md
