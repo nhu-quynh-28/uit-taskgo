@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 160 30% 98%;
+    --foreground: 160 15% 12%;
+    --primary: 160 45% 33%;
+    --primary-foreground: 160 30% 98%;
+    --secondary: 160 30% 94%;
+    --secondary-foreground: 160 55% 24%;
+    --card: 0 0% 100%;
+    --card-foreground: 160 15% 12%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 160 55% 85%;
+    --accent-foreground: 160 55% 24%;
+    --border: 214 32% 91%;
+  }
+}
+
+/* Custom styles can be added here using standard CSS or @layer */
